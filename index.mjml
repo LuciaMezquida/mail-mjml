@@ -27,10 +27,10 @@
 
   </mj-head>
   <mj-body background-color="#FBF8DF" width="600px">
-    <mj-section full-width="full-width" background-color="#618685" padding-top='40px' padding-bottom="0">
+    <mj-section full-width="full-width" background-color="#618685" padding-top='40px' padding-bottom="0px">
     
       <mj-column width="100%">
-      <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding-bottom="40px" align="center">
+      <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
             <mj-social-element name="github" href="https://github.com/LuciaMezquida" background-color="#c85604">
             </mj-social-element>
             <mj-social-element name="linkedin" href="https://www.linkedin.com/in/luciamezquidajuan/" background-color="#c85604">
@@ -40,7 +40,7 @@
             <mj-social-element name="web" href="https://luciamezquida.netlify.app/" background-color="#c85604">
             </mj-social-element>
           </mj-social>
-        <mj-image src="https://i.ibb.co/VLGsYjp/hero.png" width="600px" alt="Lucia Mezquida Hero" padding="0" href="https://luciamezquida.netlify.app/" />
+        <mj-image src="https://i.ibb.co/fpFqP9S/avatar.png" width="600px" alt="Lucia Mezquida Hero" padding="10px" href="https://luciamezquida.netlify.app/" />
       </mj-column>
     </mj-section>
   
