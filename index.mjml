@@ -40,7 +40,9 @@
             <mj-social-element name="web" href="https://luciamezquida.netlify.app/" background-color="#c85604">
             </mj-social-element>
           </mj-social>
-        <mj-image src="https://i.ibb.co/fpFqP9S/avatar.png" width="600px" alt="Lucia Mezquida Hero" padding="10px" href="https://luciamezquida.netlify.app/" />
+          <!-- https://i.ibb.co/fpFqP9S/avatar.png -->
+          <!-- "https://i.ibb.co/n7rJH5h/hero.png" -->
+        <mj-image src="https://i.ibb.co/9y2RQq8/hero2.png" width="600px" alt="Lucia Mezquida Hero" padding="10px" href="https://luciamezquida.netlify.app/" />
       </mj-column>
     </mj-section>
   
@@ -54,7 +56,7 @@
             Mi nombre es <strong>Lucía Mezquida</strong> y soy <strong>Programadora FrontEnd Jr.</strong>, aunque no siempre ha sido así. 
           </mj-text>
           <mj-text color="#637381" font-size="16px">
-            Comencé mi andadura profesional como farmacéutica, pero ha sido en la programación donde por fin he encontrado la sinergia perfecta entre <strong>creatividad</strong>, <strong>resolución de problemas</strong> y la <strong>mejora continua</strong>.
+            Comencé mi andadura profesional como farmacéutica, donde aprendí a <strong>trabajar en equipo </strong>y a saber comunicarme de manera empática. Pero ha sido en la programación donde por fin he encontrado la sinergia perfecta entre <strong>creatividad</strong>, <strong>resolución de problemas</strong> y la <strong>mejora continua</strong>.
 
           </mj-text>
           
@@ -64,7 +66,7 @@
           <mj-text color="#637381" font-size="16px">
             Soy una persona <strong>proactiva</strong>, <strong>empática</strong>, <strong>asertiva </strong>y <strong>paciente</strong>, a la que no le da miedo enfrentarse a nuevos retos, con mucho entusiasmo y ganas de seguir aprendiendo con <strong>pasión</strong> y <strong>superación</strong>.
           </mj-text>
-          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+          <mj-text color="#637381" font-size="16px" padding-bottom="60px">
             Un saludo!
           </mj-text>
           <mj-button background-color="#3c5353" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://drive.google.com/file/d/1SU4i9IdSOrWZWuTQcIuQZAAfLYbV6K6g/view" width="300px">
@@ -73,7 +75,7 @@
           
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="60px">
         <mj-column width="50%">
           <mj-image align="center" href='https://breakout-lucigame.netlify.app/' padding-top='24px' src="https://i.ibb.co/KzFY9qt/smiley-calendar.png" alt="" />
         </mj-column>
