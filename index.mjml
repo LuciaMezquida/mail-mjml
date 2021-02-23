@@ -1,0 +1,49 @@
+<mjml>
+  <mj-body>
+
+    <!-- Company Header -->
+    <mj-section background-color="#f0f0f0">
+    <mj-column>
+    <mj-text  font-style="italic"
+              font-size="20px"
+              color="#626262">
+      My Company
+    </mj-text>
+  </mj-column>
+  </mj-section>
+
+    <!-- Image Header -->
+     <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+              background-size="cover"
+              background-repeat="no-repeat">
+
+    <mj-column width="600px">
+
+          <mj-text  align="center"
+                color="#fff"
+                font-size="40px"
+                font-family="Helvetica Neue">Slogan here</mj-text>
+
+      <mj-button background-color="#F63A4D"
+                 href="#">
+        Promotion
+      </mj-button>
+
+    </mj-column>
+
+  </mj-section>
+
+    <!-- Introduction Text -->
+    <mj-section background-color="#fafafa"></mj-section>
+
+    <!-- 2 columns section -->
+    <mj-section background-color="white"></mj-section>
+
+    <!-- Icons -->
+    <mj-section background-color="#fbfbfb"></mj-section>
+
+    <!-- Social icons -->
+    <mj-section background-color="#f0f0f0"></mj-section>
+
+  </mj-body>
+</mjml>
