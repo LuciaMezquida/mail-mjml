@@ -1,49 +1,113 @@
 <mjml>
-  <mj-body>
+  <mj-head>
+    <mj-title>Discount Light</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-font name="Work+Sans, sans-serif" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Work+Sans,, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="Work+Sans, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section {
+      -webkit-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 1px 4px 11px 0px rgba(0, 0, 0, 0.15);
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .text-link {
+      color: #5e6ebf
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #888888
+      }
+    </mj-style>
 
-    <!-- Company Header -->
-    <mj-section background-color="#f0f0f0">
-    <mj-column>
-    <mj-text  font-style="italic"
-              font-size="20px"
-              color="#626262">
-      My Company
-    </mj-text>
-  </mj-column>
-  </mj-section>
+  </mj-head>
+  <mj-body background-color="#FBF8DF" width="600px">
+    <mj-section full-width="full-width" background-color="#618685" padding-top='40px' padding-bottom="0">
+    
+      <mj-column width="100%">
+      <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding-bottom="40px" align="center">
+            <mj-social-element name="github" href="https://github.com/LuciaMezquida" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/luciamezquidajuan/" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://twitter.com/LuciCodes" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="web" href="https://luciamezquida.netlify.app/" background-color="#c85604">
+            </mj-social-element>
+          </mj-social>
+        <mj-image src="https://i.ibb.co/VLGsYjp/hero.png" width="600px" alt="Lucia Mezquida Hero" padding="0" href="https://luciamezquida.netlify.app/" />
+      </mj-column>
+    </mj-section>
+  
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Hola,
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Mi nombre es <strong>Lucía Mezquida</strong> y soy <strong>Programadora FrontEnd Jr.</strong>, aunque no siempre ha sido así. 
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Comencé mi andadura profesional como farmacéutica, pero ha sido en la programación donde por fin he encontrado la sinergia perfecta entre <strong>creatividad</strong>, <strong>resolución de problemas</strong> y la <strong>mejora continua</strong>.
 
-    <!-- Image Header -->
-     <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-              background-size="cover"
-              background-repeat="no-repeat">
+          </mj-text>
+          
+          <mj-text color="#637381" font-size="16px">
+            Después de un periodo de autoformación, pasé las pruebas del bootcamp Adalab Digital, donde fui formada en <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> y <strong>React</strong>, así como a trabajar en equipo dentro de la filosofía <strong>Agile</strong>, con el marco de trabajo Scrum, todo ello en <strong>remoto</strong>.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px">
+            Soy una persona <strong>proactiva</strong>, <strong>empática</strong>, <strong>asertiva </strong>y <strong>paciente</strong>, a la que no le da miedo enfrentarse a nuevos retos, con mucho entusiasmo y ganas de seguir aprendiendo con <strong>pasión</strong> y <strong>superación</strong>.
+          </mj-text>
+          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+            Un saludo!
+          </mj-text>
+          <mj-button background-color="#3c5353" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://drive.google.com/file/d/1SU4i9IdSOrWZWuTQcIuQZAAfLYbV6K6g/view" width="300px">
+            Descargar CV
+          </mj-button>
+          
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="50%">
+          <mj-image align="center" href='https://breakout-lucigame.netlify.app/' padding-top='24px' src="https://i.ibb.co/KzFY9qt/smiley-calendar.png" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image align="center" href='https://breakout-lucigame.netlify.app/' src="https://i.ibb.co/0qV8GNp/Captura-de-pantalla-2021-02-01-a-las-15-56-52.png" alt="" />
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-color="#DFE3E8" border-width="1px" />
+        </mj-column>
+      </mj-section>
+      
+    </mj-wrapper>
 
-    <mj-column width="600px">
-
-          <mj-text  align="center"
-                color="#fff"
-                font-size="40px"
-                font-family="Helvetica Neue">Slogan here</mj-text>
-
-      <mj-button background-color="#F63A4D"
-                 href="#">
-        Promotion
-      </mj-button>
-
-    </mj-column>
-
-  </mj-section>
-
-    <!-- Introduction Text -->
-    <mj-section background-color="#fafafa"></mj-section>
-
-    <!-- 2 columns section -->
-    <mj-section background-color="white"></mj-section>
-
-    <!-- Icons -->
-    <mj-section background-color="#fbfbfb"></mj-section>
-
-    <!-- Social icons -->
-    <mj-section background-color="#f0f0f0"></mj-section>
-
+    <mj-wrapper full-width="full-width">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding-bottom="20px" align="center">
+            <mj-social-element name="github" href="https://github.com/LuciaMezquida" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/luciamezquidajuan/" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://twitter.com/LuciCodes" background-color="#c85604">
+            </mj-social-element>
+            <mj-social-element name="web" href="https://luciamezquida.netlify.app/" background-color="#c85604">
+            </mj-social-element>
+          </mj-social>
+          
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy; Lucía Mezquida Juan.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
